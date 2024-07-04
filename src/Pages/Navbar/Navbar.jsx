@@ -6,15 +6,15 @@ const Navbar = () => {
 
             <div className="max-w-[1280px] items-center flex justify-between mx-auto">
                 <div>
-                    <Link to='/'><img className="w-[150px]" src="/src/assets/abujafar-logo-prpl.png" alt="abujafar" /></Link>
+                    <Link to='/'><img className="w-[150px]" src="https://i.ibb.co/L6CpjCs/abujafar-logo-prpl.png" alt="abujafar" /></Link>
                 </div>
 
                 <nav className="sm:flex hidden gap-5 text-lg text-[#A1DDFF] font-bai font-medium">
-                    <a>Home</a>
-                    <a>Service</a>
-                    <a>About</a>
-                    <a>Contact</a>
-                    <a>Blogs</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                    {/* <a href="#projects">Blogs</a> */}
+                    <a href="#contact">Contact</a>
                 </nav>
             </div>
         </div>

@@ -7,7 +7,7 @@ const Banner = () => {
                 <h3 className="font-pacifico lg:hidden text-[#A1DDFF] absolute top-28 sm:top-40 left-5 text-2xl sm:text-3xl -rotate-6">👋 Hi i am abujafar</h3>
 
                 <div className="lg:w-1/2 md:w-[65%] w-full ">
-                    <img className="w-full" src="/src/assets/banner-img-final.png" />
+                    <img className="w-full" src="https://i.ibb.co/jJgzpNK/banner-img-final.png" />
                 </div>
 
                 <div className="lg:w-1/2 w-full text-[#A1DDFF]">
