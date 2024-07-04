@@ -1,0 +1,4 @@
+.banner{
+  /* background-image: linear-gradient(); */
+  background-image: url('assets/bg-pattern.svg'), linear-gradient(to right, #0b1120, #0b1120);
+}
