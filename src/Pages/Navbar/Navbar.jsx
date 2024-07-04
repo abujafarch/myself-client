@@ -1,6 +1,13 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
+import { GrMenu } from "react-icons/gr";
 
 const Navbar = () => {
+
+
+    const [menuOpen, setMenuOpen] = useState(false)
+
+
     return (
         <div className="py-2 lg:px-10 sm:px-8 px-5 z-50 fixed w-full top-0 border-b border-[#75757523] left-0 backdrop-blur-xl text-white bg-[#0b13228a]">
 
@@ -9,7 +16,11 @@ const Navbar = () => {
                     <Link to='/'><img className="w-[150px]" src="https://i.ibb.co/L6CpjCs/abujafar-logo-prpl.png" alt="abujafar" /></Link>
                 </div>
 
-                <nav className="sm:flex hidden gap-5 text-lg text-[#A1DDFF] font-bai font-medium">
+                <div onClick={() => setMenuOpen(!menuOpen)} className="sm:hidden text-2xl text-[#A1DDFF] cursor-pointer">
+                    <p><GrMenu></GrMenu></p>
+                </div>
+
+                <nav className={`${menuOpen ? 'flex' : 'hidden'} sm:flex-row flex-col sm:block sm:bg-transparent sm:p-0 absolute left-5 top-5 bg-[#19262e] py-5 px-10 rounded-md gap-5 text-lg text-[#A1DDFF] font-bai font-medium`}>
                     <a href="#about">About</a>
                     <a href="#skills">Skills</a>
                     <a href="#projects">Projects</a>

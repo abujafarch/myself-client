@@ -5,6 +5,7 @@ import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
 import Projects from "../Projects/Projects";
 import Skills from "../Skills/Skills";
+import { Toaster } from 'react-hot-toast';
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
             <Projects />
             <Contact />
             <Footer />
+            <Toaster />
         </div>
     );
 };
