@@ -2,3 +2,7 @@
   /* background-image: linear-gradient(); */
   background-image: url('assets/bg-pattern.svg'), linear-gradient(to right, #0b1120, #0b1120);
 }
+.special-text{
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px;
+}
