@@ -46,21 +46,21 @@ const Contact = () => {
                         or give me a shout on social media.</p>
 
                         <div className='mt-5 text-3xl flex gap-6'>
-                            <a href='https://www.linkedin.com/in/abujafar-ch/' target='_blank' ><FaLinkedin/> </a>
+                            <a className='hover:text-[#ECECFF] transition-all ease-in-out' href='https://www.linkedin.com/in/abujafar-ch/' target='_blank' ><FaLinkedin/> </a>
     
-                            <a href='https://github.com/abujafarch' target='_blank'> <FaGithub /></a>
+                            <a className='hover:text-[#ECECFF] transition-all ease-in-out' href='https://github.com/abujafarch' target='_blank'> <FaGithub /></a>
 
-                            <a href='https://www.facebook.com/abujafarchhaleh.naeem' target='_blank' > <FaFacebook/> </a>
+                            <a className='hover:text-[#ECECFF] transition-all ease-in-out' href='https://www.facebook.com/abujafarchhaleh.naeem' target='_blank' > <FaFacebook/> </a>
                         </div>
                     </div>
                 </div>
 
                 <form className='flex-col text-lg font-medium w-1/2 font-bai flex gap-5 text-[#ffffffd3]' ref={form} onSubmit={sendEmail}>
-                    <input className='outline-none rounded-lg bg-[#a1dcff07] p-4 border-2 border-[#a1dcff46]' type="text" name="user_name" placeholder='Your Name' />
+                    <input className='outline-none rounded-lg bg-[#a1dcff07] p-4 border-2 border-[#a1dcff46]' type="text" name="user_name" placeholder='Your Name' required />
 
-                    <input className='outline-none rounded-lg p-4 bg-[#a1dcff07] border-2 border-[#a1dcff46]' type="email" name="user_email" placeholder='Your Email' />
+                    <input className='outline-none rounded-lg p-4 bg-[#a1dcff07] border-2 border-[#a1dcff46]' type="email" name="user_email" placeholder='Your Email' required />
 
-                    <textarea className='outline-none min-h-[180px] rounded-lg p-2 bg-[#a1dcff07] border-2 border-[#a1dcff46]' name="message" placeholder='Write your message' />
+                    <textarea className='outline-none min-h-[180px] rounded-lg p-2 bg-[#a1dcff07] border-2 border-[#a1dcff46]' name="message" placeholder='Write your message' required />
                     <input className={`bg-[#ECECFF] text-xl mt-5 rounded-md px-3 py-4 cursor-pointer text-black font-semibold ${sending && 'cursor-not-allowed text-[#474747]'}`} type="submit" value={sending ? "Sending Message" : "Send message 🚀"} />
                 </form>
             </div>
