@@ -1,8 +1,12 @@
-.banner{
-  /* background-image: linear-gradient(); */
+.banner {
   background-image: url('assets/bg-pattern.svg'), linear-gradient(to right, #0b1120, #0b1120);
 }
-.special-text{
+
+.special-text {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 1px;
+}
+
+html {
+  scroll-behavior: smooth;
 }
