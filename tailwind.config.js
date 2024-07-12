@@ -13,7 +13,6 @@ export default {
       'lobster': ['Lobster', 'sans-serif'],
       'pacifico': ['Pacifico', 'sans-serif'],
       'rubik': ['Rubik Glitch Pop', 'sans-serif'],
-      'pacifico': ['Pacifico', 'sans-serif'],
     }
   },
   plugins: [],

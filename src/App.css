@@ -7,6 +7,16 @@
   -webkit-text-stroke: 1px;
 }
 
+.chit-chat::after {
+  content: 'I’m always up for a chat.';
+  background-color: #263c6e;
+  position: absolute;
+  color: #ECECFF;
+  left: -6px;
+  bottom: 6px;
+  padding: 0 12px 6px;
+}
+
 html {
   scroll-behavior: smooth;
 }
