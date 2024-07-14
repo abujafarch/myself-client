@@ -12,7 +12,7 @@ const Projects = () => {
                 classes={"projects"}
             />
 
-            <div className="max-w-[1280px] mx-auto lg:px-10 sm:px-8 px-2 py-10 text-white font-bai grid lg:grid-cols-3 md:grid-cols-2 gap-5">
+            <div className="max-w-[1280px] mx-auto lg:px-10 sm:px-8 px-2 py-10 text-white grid lg:grid-cols-3 md:grid-cols-2 gap-5">
 
                 <Project
                     name={"Assetify - Manage your assets"}
