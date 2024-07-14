@@ -2,11 +2,11 @@
 
 const Skills = () => {
     return (
-        <div className="bg-[#0C1323] py-20 text-white font-bai" id="skills">
+        <div className="bg-[#131313] py-20 text-white font-bai" id="skills">
             <div className="max-w-[1280px] mx-auto lg:px-10 sm:px-8 px-5">
                 <div className="flex lg:flex-row flex-col gap-10">
                     <div className="lg:w-1/2">
-                        <h2 className="text-[#A1DDFF] text-3xl font-bold underline  underline-offset-4">Skills</h2>
+                        <h2 className="text-[#38BDF8] text-3xl font-bold underline  underline-offset-4">Skills</h2>
                         <div className="mt-10 grid grid-cols-2 gap-3 sm:gap-5 text-[#92a2b8] sm:text-xl text-base font-bold">
 
                             <div className="flex items-center gap-5">
@@ -59,19 +59,19 @@ const Skills = () => {
                         </div>
                     </div>
                     <div className="lg:w-1/2">
-                        <h2 className="text-[#92a2b8] text-3xl font-bold underline  underline-offset-4">Education</h2>
+                        <h2 className="text-[#8aa8d3] text-3xl font-bold underline  underline-offset-4">Education</h2>
                         <div className="mt-5 text-[#92a2b8]">
-                            <p className="font-semibold text-[#A1DDFF]">July, 2019 - December, 2021</p>
+                            <p className="font-semibold text-[#38BDF8]">July, 2019 - December, 2021</p>
                             <p className="font-semibold">HSC -  Higher Secondary Certificate</p>
                             <p className="font-semibold">Comilla Residential College</p>
                         </div>
                         <div className="mt-5 text-[#92a2b8]">
-                            <p className="font-semibold text-[#A1DDFF]">June, 2023 - Current</p>
+                            <p className="font-semibold text-[#38BDF8]">June, 2023 - Current</p>
                             <p className="font-semibold">Honors in Mathematics</p>
                             <p className="font-semibold">National University, Bangladesh</p>
                         </div>
                         <div className="mt-5 text-[#92a2b8]">
-                            <p className="font-semibold text-[#A1DDFF]">June, 2022 - May, 2023</p>
+                            <p className="font-semibold text-[#38BDF8]">June, 2022 - May, 2023</p>
                             <p className="font-semibold">During this period, after completing HSC, I took admission test in public university but got no chance. Then next year after taking admission test again, no chance again. Then I got admitted to National University in June 2023</p>
                         </div>
                     </div>

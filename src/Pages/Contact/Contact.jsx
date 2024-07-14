@@ -3,6 +3,7 @@ import { useRef, useState } from 'react';
 import toast from 'react-hot-toast';
 import { MdEmail } from "react-icons/md";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa6";
+import Titles from '../../components/Titles';
 
 const Contact = () => {
 
@@ -32,14 +33,19 @@ const Contact = () => {
     };
 
     return (
-        <div className="bg-[#0C1323]" id='contact'>
-            <h1 className='text-4xl w-max text-[#A1DDFF] font-bold mx-auto pt-10'>Contact</h1>
-            <div className="max-w-[1280px] flex items-start gap-10 mx-auto lg:px-10 sm:px-8 px-5 py-20">
+        <div className="bg-[#131313] pt-20" id='contact'>
+            {/* 0C1323 */}
+            <Titles 
+                title={"Contacts"}
+                classes={"contacts"}
+            />
+
+            <div className="max-w-[1280px] flex md:flex-row flex-col items-start gap-10 mx-auto lg:px-10 sm:px-8 px-5 py-20">
 
 
-                <div className='text-[#a1dcffcb] w-1/2 font-semibold '>
+                <div className='text-[#a1dcffcb] md:w-1/2 font-semibold '>
                     {/* <img src="https://firebasestorage.googleapis.com/v0/b/myself-fe2c5.appspot.com/o/Group%2015.png?alt=media&token=67205719-60e6-4308-950a-0fd478d4d3df" /> */}
-                    <div className='mt-3'>
+                    <div className='my-3'>
                         <p className='font-rowdies relative text-2xl font-light text-[#474747] px-3 pb-2 bg-[#ECECFF] w-max chit-chat'>I’m always up for a chat.</p>
 
                         <p className='mt-7 leading-10 text-[#ECECFF] text-2xl font-light'><span className='font-semibold underline underline-offset-8 decoration-1 text-[#ECECFF]'>Pop me an email</span> at 357jafar@gmail.com <br />
@@ -55,7 +61,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <form className='flex-col text-lg font-medium w-1/2 font-bai flex gap-5 text-[#ffffffd3]' ref={form} onSubmit={sendEmail}>
+                <form className='flex-col text-lg font-medium md:w-1/2 w-full font-bai flex gap-5 text-[#ffffffd3]' ref={form} onSubmit={sendEmail}>
                     <input className='outline-none rounded-lg bg-[#a1dcff07] p-4 border-2 border-[#a1dcff46]' type="text" name="user_name" placeholder='Your Name' required />
 
                     <input className='outline-none rounded-lg p-4 bg-[#a1dcff07] border-2 border-[#a1dcff46]' type="email" name="user_email" placeholder='Your Email' required />
