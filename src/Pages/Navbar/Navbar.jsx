@@ -13,7 +13,7 @@ const Navbar = () => {
 
             <div className="max-w-[1280px] items-center flex justify-between mx-auto">
                 <div>
-                    <a href='#home'><img className="w-[150px]" src="https://i.ibb.co/L6CpjCs/abujafar-logo-prpl.png" alt="abujafar" /></a>
+                    <a href='#home'><img className="w-[150px]" src="https://firebasestorage.googleapis.com/v0/b/myself-fe2c5.appspot.com/o/abujafar-logo-prpl.png?alt=media&token=2f03b6fe-9335-4dfb-a619-fd267386e840" alt="abujafar" /></a>
                 </div>
 
                 <div onClick={() => setMenuOpen(!menuOpen)} className="sm:hidden text-2xl text-[#A1DDFF] cursor-pointer">

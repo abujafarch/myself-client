@@ -17,7 +17,7 @@ const About = () => {
                     </div>
 
                     <div className="max-w-[500px] lg:w-auto">
-                        <img className="w-full" src="https://i.ibb.co/Z87KsDr/banner-me.png" />
+                        <img className="w-full" src="https://firebasestorage.googleapis.com/v0/b/myself-fe2c5.appspot.com/o/banner-me.png?alt=media&token=969d3c84-22fb-487b-a9f0-d02437919900" />
                     </div>
                 </div>
             </div>
